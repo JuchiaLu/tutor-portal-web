@@ -1,0 +1,177 @@
+body{background: #f2f2f2;}
+
+.tutorType{width:1198px;height: 43px;overflow: hidden;border:1px solid #ddd;background: #f5f5f5;clear: both;margin:0px auto;}
+.tutorType span{line-height: 43px;overflow: hidden;display: block;color: #333;margin-left: 20px;}
+/*查询条件*/
+.termDiv{ width:1200px; height:auto; overflow:hidden; clear:both; background:#fff; margin:0px auto 20px auto;padding-bottom:20px;}
+.termDiv .term{ width:1200px; height:auto; overflow:hidden;}
+.termDiv .term .choose{ width:1200px; height:auto; overflow:hidden;margin-top:14px;}
+.termDiv .choose .type{ float:left; width:90px; height:auto; line-height:25px; margin-left:20px; overflow:hidden; color:#444; font-size:14px;}
+.termDiv .choose .list{ float:left; width:980px; height:28px; overflow:hidden;}
+.termDiv .choose .list a{ display:block; float:left;height:25px; line-height:25px; overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#444; font-size:14px;padding:0 18px;border:1px solid #fff;margin-bottom: 8px;}
+.termDiv .choose .list a:hover,.termDiv .choose .list a.hover{ color:#ff8e2a;border:1px solid #ff8e2a;}
+.termDiv .choose .more{ float:right; cursor:pointer; display: block;line-height:25px;margin-right:63px;color:#444; font-size:14px;}
+.termDiv .choose .more:hover{ color:#ff8e2a;}
+
+.isTypeDiv{width: 1200px;height:50px;background: #fff;margin:0px auto 20px auto;}
+.isTypeDiv .default{cursor: pointer;float: left;height:47px;line-height:50px;margin-left: 20px;color: #444;border-bottom:3px solid #fff;}
+.isTypeDiv .default a{color: #444}
+.isTypeDiv .default:hover a{color: #e80000}
+.isTypeDiv .default:hover{cursor: pointer;float: left;height:47px;line-height:50px;margin-left: 20px;color: #e80000;border-bottom:3px solid #e80000;}
+.isTypeDiv .ords{cursor: pointer;float: left;height:47px;line-height:50px;margin-left: 20px;color: #e80000;border-bottom:3px solid #e80000;}
+.isTypeDiv .ords a{color: #e80000;}
+.isTypeDiv .right{float: right;height:50px;overflow: hidden;}
+.isTypeDiv .right .people{float: left;line-height:50px;margin-right: 20px;color: #999;}
+.isTypeDiv .right .seaForm{float: left;width: 220px;height:28px;line-height: 28px;overflow: hidden;color: #333;border:1px solid #ddd;margin:10px 10px 0 0;}
+.isTypeDiv .seaForm .key{color:#999;float: left;width: 170px;height:28px;line-height: 28px;overflow: hidden;margin-left: 10px;border:none;background: none;font-family: "微软雅黑"}
+.isTypeDiv .seaForm .btn{width:24px;height: 23px;overflow: hidden;float: right;border:none;background: none;cursor: pointer;text-align: center;}
+
+.publicDiv{width: 1200px;height: auto;overflow: hidden;margin:0px auto 60px auto;}
+.publicDiv .publicLeft{width:880px;height: auto;overflow: hidden;background: #fff;float: left;}
+.publicDiv .publicRight{width:300px;height: auto;overflow: hidden;float: right;}
+
+/*教员信息*/
+.tutoringDiv{width: 880px;height: 200px;overflow:hidden;border-bottom:2px solid #f2f2f2;}
+.tutoringDiv .pic{display:block;float: left;width: 140px;height: 160px;overflow: hidden;margin:20px 25px 0 20px;}
+.tutoringDiv .rights{float: left;width:670px;height: 160px;overflow: hidden;margin-top:20px;}
+.tutoringDiv .Title{width:670px;height:30px;overflow: hidden;margin-bottom: 10px;}
+.tutoringDiv .Title .name{display:block;float:left;width:215px;height:30px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#333;font-size:20px;}
+.tutoringDiv .Title .rz{float: left;margin-top:3px;margin-right: 40px;}
+.tutoringDiv .Title .lists{float:left;height:25px;line-height:25px;overflow:hidden;padding:0 10px;background:#f9c23e;color:#fff;margin-right:20px;border-radius:5px;}
+.tutoringDiv .Title .lists-2{background: #4bace7;}
+.tutoringDiv .Title .money{float: right;width: 120px;height: 30px;line-height:25px;text-align: right;overflow: hidden;color: #f60;}
+.tutoringDiv .turul{width:670px;height:72px;line-height:24px;overflow:hidden;overflow: hidden;}
+.tutoringDiv .turul li{display: block;float: left;overflow: hidden;color:#888;}
+.tutoringDiv .turul span{float: left;font-weight: bold;}
+.tutoringDiv .turul .li-1{width:115px;height: 24px;}
+.tutoringDiv .turul .li-2{width:530px;height: 24px;float: right;}
+.tutoringDiv .turul .li-3{width:670px;height:48px;margin-top:5px;}
+.tutoringDiv .bott{width: 670px;height:30px;overflow: hidden;margin-top: 15px;}
+.tutoringDiv .bott .tags{float: left;height:28px;line-height: 28px;overflow: hidden;padding:0 15px;border:1px solid #ddd;border-radius:20px;color: #888;margin-right:15px;cursor: pointer;}
+.tutoringDiv .bott .more{display: block;float: right;height:30px;line-height: 30px;overflow: hidden;width: 80px;background: #e80000;font-weight: bold;color: #fff;text-align: center;border-radius:5px;}
+.tutoringDiv:hover .Title .name{color: #e80000;}
+.tutoringDiv .bott .more:hover{background: #4bace7;}
+
+.recentDiv{width:300px;height:auto;overflow: hidden;background: #fff;margin-bottom: 20px;padding-bottom: 20px;}
+.recentDiv .reTypes{width:265px;height:48px;line-height: 48px;overflow: hidden;border-bottom:1px solid #ddd;margin:0 auto;color: #333;font-size: 16px;}
+.recentDiv .reTypes span{display: block;float: left;height: 47px;border-bottom:1px solid #e80000;}
+
+.aboutRec .abpic{display: block;width: 265px;height: 90px;overflow: hidden;margin:10px auto 10px auto;}
+.aboutRec .abintro{width: 265px;height:120px;line-height:24px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;color: #666;font-size: 14px;margin:0px auto;}
+
+.successRec .successList{width:265px;height:auto;line-height:22px;overflow: hidden;margin:10px auto 0px auto;}
+.successRec .successList .topic{width:265px;height:22px;overflow: hidden;color: #666;white-space:nowrap;text-overflow:ellipsis;}
+.successRec .successList .answer{width:265px;height:22px;overflow: hidden;color: #1985c6;white-space:nowrap;text-overflow:ellipsis;}
+
+.teacheRec .teacherList{width: 265px;height: 95px;overflow: hidden;margin:15px auto 0px auto;border-bottom:1px dashed #ddd;}
+.teacheRec .teacherList .pic{display:block;float: left;width:70px;height:80px;overflow: hidden;}
+.teacheRec .teacherList .topic{display:block;float:right;width:170px;height:26px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#333;font-size:16px;}
+.teacheRec .teacherList .shanc{display:block;float:right;width:170px;height:24px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#888;font-size:14px;margin-top:5px;}
+.teacheRec .teacherList .money{display:block;float:right;width:170px;height:24px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#f60;font-size:14px;margin-top:5px;}
+.teacheRec .teacherList:hover .topic{color: #e80000;}
+
+.tutoringDiv .pic:hover img,.aboutRec .abpic:hover img{
+  opacity: 1;transform: scale(1.15,1.15);-webkit-transform:scale(1.15,1.15);-moz-transform:scale(1.15,1.15);-ms-transform:scale(1.15,1.15);-o-transform:scale(1.15,1.15);
+}
+.tutoringDiv .pic img,.aboutRec .abpic img{-webkit-transition:all 0.45s ease-in-out;-moz-transition:all 0.45s ease-in-out;-o-transition:all 0.45s ease-in-out;-ms-transition:all 0.45s ease-in-out;transition:all 0.45s ease-in-out;
+}
+/*教员信息-详情*/
+.turtorItemDiv{width: 880px;min-height:840px;overflow: hidden;}
+.turtorItemDiv .turLf{width: 240px;min-height:840px;overflow: hidden;border-right: 1px solid #f2f2f2;float: left;}
+.turtorItemDiv .turLf .divs{width: 180px;height: auto;overflow: hidden;margin:26px auto;}
+.turtorItemDiv .turLf .faces{width: 180px;height:205px;overflow: hidden;margin-bottom:10px;}
+.turtorItemDiv .turLf .numUls{width: 180px;height: auto;overflow: hidden;}
+.turtorItemDiv .turLf .numUls li{display: block;float: left;width: 89px;height: 59px;overflow: hidden;border-bottom:1px solid #fff;border-left:1px solid #fff;text-align: center;color: #fff;font-size: 16px;line-height:40px;}
+.turtorItemDiv .turLf .numUls span{display: block;font-size: 14px;width: 89px;height:20px;line-height:20px;overflow: hidden;margin-top:-7px;}
+.turtorItemDiv .turLf .numUls .num-1{background: #46d6e3;}
+.turtorItemDiv .turLf .numUls .num-2{background: #73aeff;}
+.turtorItemDiv .turLf .numUls .num-3{background: #f9c23e;}
+.turtorItemDiv .turLf .numUls .num-4{background: #fa9ba8;}
+.turtorItemDiv .turLf .number{width: 180px;height:25px;line-height:25px;overflow: hidden;color: #1985c6;text-align: center;margin-top: 5px;}
+.turtorItemDiv .turLf .leap{display:block;width:180px;height:38px;line-height:38px;overflow:hidden;color:#fff;text-align:center;font-size:16px;margin-top:13px;border-radius: 5px;}
+.turtorItemDiv .turLf .leap-1{background: #62bd1a;}
+.turtorItemDiv .turLf .leap-2{background: #309de0;}
+.turtorItemDiv .turLf .leap-3{background: #ffbb17;}
+.turtorItemDiv .turLf .leap:hover{background: #e80000;}
+.turtorItemDiv .turLf .codes{width: 180px;height: 180px;overflow: hidden;margin-top:20px;}
+.turtorItemDiv .turLf .codetxt{width: 180px;height:60px;line-height:20px;overflow: hidden;margin-top:10px;color: #666;font-size: 13px;}
+
+.turtorItemDiv .turRg{width:590px;overflow: hidden;margin:26px 24px;float: left;height: auto;}
+.turtorItemDiv .rgUl{width:590px;overflow: hidden;height: auto;}
+.turtorItemDiv .rgUl li{display: block;float: left;width: 580px;min-height: 30px;line-height: 30px;color:#666;font-size: 16px;margin-bottom:15px;background: url(../../assets/images/dot-2.png) no-repeat left 13px;background-size: 3px;padding-left: 10px;overflow: hidden;}
+.turtorItemDiv .rgUl .li-1{width: 360px;margin-right: 10px;}
+.turtorItemDiv .rgUl .li-1 img{position: relative;top:4px;}
+.turtorItemDiv .rgUl .li-2{width:360px;}
+.turtorItemDiv .rgUl .tables{width: 468px;float: right;margin:8px 20px 20px 0;border:1px solid #d4d3d2;border-top:none;border-left:none;text-align: center;}
+.turtorItemDiv .rgUl .tables td{width:58px;height:40px;line-height: 40px;border-top:1px solid #d4d3d2;border-left:1px solid #d4d3d2;}
+.turtorItemDiv .rgUl .tr-1{background:#ebebeb;}
+.turtorItemDiv .rgUl .tr-2{background:#fffef2;}
+.turtorItemDiv .rgUl .tr-3{background:#eff9fe;}
+.turtorItemDiv .rgUl .tr-4{background:#fef3f7;}
+.turtorItemDiv .rgUl li.hover{color: #309de0;background: url(../../assets/images/dot-3.png) no-repeat left 13px;background-size: 3px;}
+
+.gray{width: 880px;height: 20px;background:#f2f2f2;overflow: hidden;}
+
+.commentDiv{width:878px;height:auto;overflow: hidden;border:1px solid #dedede;min-height: 310px;padding-bottom:20px;}
+.commentDiv .parents{width:878px;height: 42px;line-height: 42px;border-bottom:1px solid #dedede;background:#fafafa;}
+.commentDiv .parents span{display: block;float:left;width: 100px;height:40px;border-right:1px solid #dedede;border-bottom:1px solid #fff;border-top:2px solid #e80000;background:#fff;text-align: center;color: #e80000;font-size: 15px;}
+.commentDiv .commentList{width:840px;margin:20px auto 0 auto;height: auto;overflow: hidden;}
+.commentDiv .commentList .pic{float: left;width:75px;height:75px;overflow: hidden;}
+.commentDiv .commentList .rgs{float: right;width:755px;height: auto;overflow: hidden;}
+.commentDiv .commentList .one{width:755px;height: auto;line-height: 30px;float: left;}
+.commentDiv .one .topic{float: left;color: #1985c6;font-size: 16px;margin-right:30px;}
+.commentDiv .one .score{float: left;color: #666;font-size: 14px;}
+.commentDiv .one .score img{position: relative;top:3px;}
+.commentDiv .commentList .two{width:755px;height: auto;float: left;color: #666;margin-top:10px;}
+.commentDiv .two .tags{display: inline-block;padding:0 10px;height: 24px;line-height: 24px;border:1px solid #37ab40;overflow: hidden;border-radius:20px;color: #37ab40;font-size: 12px;margin-right: 10px;position: relative;top:8px;}
+.commentDiv .commentList .three{width:755px;height: auto;float: left;color: #666;margin-top:20px;line-height: 24px;}
+.commentDiv .commentList .picDiv{width:765px;height: auto;float: left;margin-top:20px;overflow: hidden;}
+.commentDiv .picDiv .pics{width: 75px;height: 75px;float: left;overflow: hidden;margin-right:10px;margin-bottom:10px;}
+
+/*学员信息*/
+.questionRec .questionUl{width: 265px;height: auto;overflow: hidden;margin:15px auto 0 auto;}
+.questionRec .questionUl li{display: block;width: 265px;height:30px;line-height:30px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.questionRec .questionUl li a{color:#666;font-size:14px;display: block;width: 265px;height:30px;overflow:hidden;}
+.questionRec .questionUl li a:hover{color: #e80000;}
+
+.traineeDiv{width:880px;height: 220px;overflow:hidden;border-bottom:2px solid #f2f2f2;background:url(../../assets/images/icon-arrow-7.png) no-repeat 850px center;}
+.traineeDiv .Title{width:800px;height:35px;overflow: hidden;margin:28px 0 10px 30px;line-height:30px;}
+.traineeDiv .Title .name{display:block;float:left;width:340px;height:30px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#333;font-size:22px;}
+.traineeDiv .Title .name span{font-size:22px;}
+.traineeDiv .Title .money{float: left;height: 30px;overflow: hidden;color: #e80000;margin-right:28px;}
+.traineeDiv .Title .times{float: left;height: 30px;overflow: hidden;color: #666;}
+.traineeDiv .Title .times span{color: #02b628;}
+.traineeDiv .turul{width:800px;height:auto;line-height:24px;overflow:hidden;overflow: hidden;float: left;margin-left: 30px;}
+.traineeDiv .turul li{display: block;float: left;overflow: hidden;color:#888;}
+.traineeDiv .turul span{float: left;font-weight: bold;}
+.traineeDiv .turul .li-1{width:160px;height: 24px;margin-right:10px;}
+.traineeDiv .turul .li-2{width:625px;height: 24px;float: left;}
+.traineeDiv .turul .li-3{width:160px;height:24px;margin-top:10px;margin-right:10px;}
+.traineeDiv .turul .li-4{width:190px;height:24px;margin-top:10px;margin-right:10px;}
+.traineeDiv .turul .li-5{width:410px;height: 24px;margin-top:10px;}
+.traineeDiv .turul .li-6{width:800px;height:48px;margin-top:10px;}
+.traineeDiv:hover{background:url(../../assets/images/icon-arrow-8.png) no-repeat 850px center;}
+.traineeDiv:hover .Title .name{color: #e80000;}
+/*学员信息-详情*/
+.traineeItemDiv{width: 880px;min-height:950px;overflow: hidden;}
+.traineeItemDiv .traineeItem{width:830px;height:auto;overflow: hidden;margin:30px auto;}
+.traineeItemDiv .Title{width:830px;height:70px;overflow: hidden;line-height:30px;}
+.traineeItemDiv .Title .name{display:block;float:left;width:100%;height:30px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#333;font-size:22px;margin-bottom: 10px;}
+.traineeItemDiv .Title .ordersn{float: left;height:30px;overflow: hidden;color: #333;font-size:22px;margin-right:28px;}
+.traineeItemDiv .Title .times{float: left;height: 30px;overflow: hidden;color: #666;}
+.traineeItemDiv .Title .times span{color: #02b628;}
+.traineeItemDiv .typeName{color:#309de0;text-decoration:underline;font-size:20px;margin-top:30px;}
+
+.traineeItemDiv .rgUl{width:830px;margin-top:30px;}
+.traineeItemDiv .rgUl li{width:830px;background: none;padding-left: 0px;}
+.traineeItemDiv .rgUl .li-1{width: 410px;}
+.traineeItemDiv .rgUl .tables{margin:8px 250px 20px 0;}
+
+.traineeItemDiv .lineHr{width: 830px;height: 1px;background: #e8e8e8;border:none;}
+
+.traineeItemDiv .leapTxt{width: 730px;height:auto;position: relative;background: #eaf1f9;margin:22px auto 30px auto;border-radius:60px;text-align: center;font-size: 16px;line-height: 22px;color: #000;padding:20px 0;}
+.traineeItemDiv .leapTxt span{color:#309de0;}
+.traineeItemDiv .leapTxt .circle{width:0;height:0;border-left:18px solid transparent;border-right:18px solid transparent;border-top:18px solid #eaf1f9;position: absolute;left: 50%;bottom:-15px;margin-left: -10px;}
+
+.traineeItemDiv .freeLeap{display: block;width: 270px;height: 50px;line-height: 50px;text-align: center;color:#fff;border-radius: 5px;background: #309de0;font-size: 18px;font-weight: bold;margin:0 auto;}
+.traineeItemDiv .freeLeap:hover{background: #e80000;}

@@ -1,0 +1,36 @@
+.city_list{
+   width: 1200px;
+   margin: 20px auto;
+}
+.city_list dl{
+    clear: both;
+    height: 28px;
+    line-height: 28px;
+    padding: 10px 0px;
+}
+.city_list dl dt{
+    font-weight: bold;
+    padding-right: 10px;
+    float:left;
+    overflow: hidden;
+}
+.city_list dl dd{
+    float: left;
+
+}
+.city_list dl dd a{
+    color: #333;
+    margin-right: 10px;
+    position: relative;
+}
+
+.city_list dl dd a img{
+    position: absolute;
+    top: -15px;
+    left: 0;
+}
+
+.city_list dl dd  a.enabled{
+    color: #999;
+    cursor: not-allowed;
+}

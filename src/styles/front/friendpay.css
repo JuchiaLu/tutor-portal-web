@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+{margin:0px;padding:0px;font-size:12px;}
+body,div,li,ul,dl,dd,dt,span,b,strong,p,h1,h2,h3,h4,h5{margin:0px;padding:0px;list-style:none;list-style-type:none; }
+a img{border:none;}
+a{text-decoration:none; margin:0px; padding:0px;}
+body{ background:#fff; margin:0px; padding:0px;-webkit-text-size-adjust:none; min-width:1000px;}
+input{ margin:0px; padding:0px;}
+input,button,select,textarea{ outline:none;}
+
+/*内页*/
+.fpay_top{ width:auto; min-width:1200px; background:#ff6700; height:300px; margin:0 auto; overflow:hidden; border-top:1px solid #ff6700;}
+.location_now{ color:#fff;}
+.location_now a{ color:#fff; background:url(../images/right_arrow_white.png) no-repeat left center; }
+.location_now a:hover{ color:#fff;}
+.user-say{ width:700px; height:90px; margin:70px auto 0 auto; overflow:hidden;}
+.user-say dl{ width:100%; height:90px; overflow:hidden;}
+.user-say dl dt{ width:86px; float:left; height:86px; border-radius:50%; overflow:hidden; background:#fff; margin-top:3px;}
+.user-say dl dt span{ width:80px; height:80px; margin:3px auto; display:block; border-radius:50%; overflow:hidden;}
+.user-say dl dd{ width:600px; height:90px; padding:30px 25px; box-sizing:border-box; float:right;background:url(../images/say_tip_bg.png) no-repeat left center; font-size:18px; color:#666;}
+.fpay_box{ width:1200px; height:auto; overflow:hidden; margin:1px auto 15px auto;}
+.fpay_box_left{ width:450px; float:left;}
+
+
+.all_chip tr td{ border:1px solid #dedede; padding:5px 8px; box-sizing:border-box; border-right:none; border-top:none; vertical-align:middle !important; color:#444;}
+.fpaypro{ width:100%; height:auto; overflow:hidden; line-height:22px; margin:4px 0; color:#333;}
+.i_want_pay_btn{ width:180px; height:50px; margin:15px 0; display:inline-block; line-height:50px; text-align:center;  background:#fd9712; color:#fff; border-radius:2px; cursor:pointer; font-size:18px;}
+.buyproinfo{ width:95%; height:auto; margin:0 auto;}
+.buyproinfo h2{ width:100%; height:40px; line-height:40px; font-size:24px; font-weight:normal; color:#666; margin-bottom:10px;}
+.buyproinfo dl{ width:100%; height:auto; overflow:hidden; margin-bottom:15px;}
+.buyproinfo dl dt{ width:90px; float:left; margin-right:15px; padding:2px; border:1px solid #dedede;}
+.buyproinfo dl dt img{ display:block;}
+.buyproinfo dl dd{ height:auto; overflow:hidden;}
+.buyproinfo dl dd p{ width:100%; height:auto; overflow:hidden; line-height:30px; color:#666; font-size:14px;}
+.buyproinfo dl dd p b{ color:#c00; font-size:16px; font-family:Arial;}
+.buyproprice{ width:100%; height:auto; overflow:hidden; margin:10px auto;}
+.buyproprice span{ float:left; font-size:16px; color:#888;}
+.buyproprice p{ float:right; color:#666; font-size:15px;}
+.buyproprice p b{ color:#f74550; font-size:17px; font-weight:normal;}
+
+.fpropay_main{ width:400px; height:180px; border:4px solid #ccc; background:#fff; position:fixed; display:none; top:-200px;margin-top:-110px; left:50%; margin-left:-200px; z-index:66; overflow:hidden;}
+.fpropay_main h2{ width:370px; margin:0 auto; height:30px; line-height:20px; font-weight:normal; margin-top:10px; font-size:14px; color:#666;}
+.fpropay_main h2 span.close_btn{ float:right; height:26px; line-height:20px; background:#c50b3b; color:#fff; width:50px; text-align:center; font-family:Arial; line-height:26px; font-size:14px; border-radius:2px; cursor:pointer;}
+.fpropay_main h2 span.close_btn:hover{ background:#d90e43;}
+.input_val{ width:360px; padding-left:10px; height:34px; float:left;margin-left:15px; _display:inline;border:1px solid #dedede; overflow:hidden; display:block; margin-bottom:20px; margin-top:20px;}
+
+.pay_type{ width:390px; margin:20px auto; height:auto; overflow:hidden;}
+.pay_type a{ float:left; height:40px; border:1px solid #dedede; width:115px; margin-left:10px; _display:inline;}
+.pay_type a.weixin_pay{ width:130px;}
+.pay_type a.account_pay{ width:100px; line-height:40px; text-align:center; font-size:16px; color:#333;}
+.pay_type a img{ display:block; margin:5px auto;}
+#paypassword{ width:120px; height:24px; padding:0px 5px; border:1px solid #dedede; margin-top:8px;}
+
+.fpay_rule{ width:1200px; height:auto; overflow:hidden; margin:15px auto;}
+.fpay_rule_left{ width:520px; float:left; height:auto; overflow:hidden;}
+.h2_fpay_rule{ width:100%; height:40px; border-bottom:1px solid #ddd; font-size:18px; font-weight:normal; color:#666; line-height:30px;}
+.fpay_process_img{ display:block; margin:50px auto;}
+.fpay_rule_right{ width:650px; float:right; height:auto; overflow:hidden;}
+.fpay_rule_right p{ width:100%; height:auto; overflow:hidden; display:block; font-size:14px; line-height:24px; color:#999; margin-top:18px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

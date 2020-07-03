@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+{margin:0px;padding:0px;font-size:12px;}
+body,div,li,ul,dl,dd,dt,span,b,strong,p,h1,h2,h3,h4,h5{margin:0px;padding:0px;list-style:none;list-style-type:none; }
+a img{border:none;}
+a{text-decoration:none; margin:0px; padding:0px;}
+body{ background:#fff; margin:0px; padding:0px;-webkit-text-size-adjust:none; min-width:1000px;}
+input{ margin:0px; padding:0px;}
+input,button,select,textarea{ outline:none;}
+
+
+
+
+
+
+/*内页*/
+.inner_mainbg{ width:auto; height:auto; min-height:400px; background:url(../images/index_bg_03.jpg) repeat 0px 0px; min-width:1236px; overflow:hidden;}
+.inner_mainbox{ width:1236px; height:auto; min-height:400px; background:#fff; margin:0 auto; overflow:hidden;}
+
+.passwordreset{ width:800px; height:auto; overflow:hidden; margin:10px auto;}
+.resetstep{ width:800px; height:31px; border-bottom:1px solid #dedede; margin:30px auto;}
+.resetstep ul{ margin-left:40px;}
+.resetstep ul li{ float:left; width:110px; height:30px; padding:0px 35px;}
+.resetstep ul li span{ background:#ccc; width:18px; height:18px; margin-top:6px; text-align:center; border-radius:8px; color:#fff; float:left; margin-right:5px;}
+.resetstep ul li b{ font-size:16px; font-weight:normal; line-height:30px;}
+.resetstep ul li.hover{ border-bottom:2px solid #e80000;}
+.resetstep ul li.hover span{ background:#e80000;}
+.resetstep ul li.hover b{ color:#e80000;}
+
+/*步骤一*/
+.step_A{ width:450px; margin:80px auto; overflow:hidden;}
+.usertext{ width:350px; height:38px; border:1px solid #dedede;background:url(../images/user_in.gif) no-repeat left center; padding-left:50px; color:#333; line-height:38px;}
+.usertext:focus{ border:solid 1px #61ade7; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);}
+.checkcode{ width:112px; padding-left:50px; height:38px; border:1px solid #dedede; line-height:34px; color:#999;background:url(../images/code_in.gif) no-repeat left center;}
+.checkcode:focus{ border:solid 1px #61ade7; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);}
+.divtxt{ height:auto; overflow:hidden;}
+.nextstep{ width:400px; height:38px; border:none; background:#e80000; cursor:pointer; color:#fff; font-size:14px;}
+.msgtip{ height:26px; line-height:26px; color:#f00;}
+
+/*步骤二*/
+.step_B{ width:800px; height:auto; overflow:hidden; margin:60px auto;}
+.step_B h2{ font-family:"微软雅黑"; font-weight:normal; font-size:15px; color:#666;}
+.step_B dl{ width:798px; height:50px; padding:18px 0px; border:1px solid #dedede; margin:20px 0px;}
+.step_B dl dt{ width:50px; height:50px; float:left; margin-left:30px;}
+.step_B dl dd.dda{ width:500px; height:50px; float:left; margin-left:20px;}
+.step_B dl dd.dda p{  font-size:14px;font-weight:bold;font-family:"微软雅黑"; margin-top:5px; }
+.step_B dl dd.dda span{ color:#666; margin-top:5px; display:inline-block;}
+.step_B dl dd.ddb{ float:right; width:100px; margin-right:30px; margin-top:12px;}
+.step_B dl dd.ddb a.yes{ width:96px; height:26px; background:#e80000; display:inline-block; line-height:26px; text-align:center; color:#fff; border-radius:3px;}
+.step_B dl dd.ddb a.yes:hover{ background:#e79b05;}
+.step_B dl dd.ddb a.no{ width:96px; height:26px; background:#ccc; display:inline-block; line-height:26px; text-align:center; color:#fff; border-radius:3px;}
+
+/*手机*/
+.phonecheck{ width:400px; margin:auto; height:auto; overflow:hidden; margin:80px auto;}
+.phonecheck h2{font-family:"微软雅黑"; font-weight:normal; font-size:13px; color:#666; margin-bottom:10px;}
+.phonecheck h2 a{ color:#f23030;}
+.phonecheck h2 a:hover{ color:#a10700;}
+.email-gcode,.btn-gcode,.ck_parent{ cursor:pointer; color:#999;}
+
+/*步骤三*/
+.step_C{ width:400px; height:auto; overflow:hidden; margin:0 auto;}
+.step_C h2{ font-family:"微软雅黑"; font-weight:normal; font-size:15px; color:#666; margin-bottom:8px;}
+.step_C dl{ width:400px; height:auto; overflow:hidden;}
+.step_C dl dt{ width:400px; height:30px; line-height:30px; font-size:14px; color:#666;}
+.step_C dl dd{ margin-bottom:5px;}
+.step_C dl dd input{ width:393px; height:32px; padding-left:5px; border:1px solid #dedede; color:#333; line-height:32px;}
+.step_C dl dd input:focus{ border:solid 1px #61ade7; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);}
+.surebtn{ width:400px; height:38px; border:none; background:#e80000; cursor:pointer; color:#fff; font-size:14px; margin-top:10px;}
+
+/*四*/
+.step_D{ width:300px; height:36px; margin:100px auto; line-height:36px; text-align:center;}
+.step_D p{ font-size:16px;height:36px;background:url(../images/success_ico.png) no-repeat 0px 0px;}
+.step_D p a{ color:#ff9000; font-size:16px; margin-left:10px;}
+
+

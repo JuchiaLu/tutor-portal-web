@@ -1,0 +1,26 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,html,div,h1{ margin:0; padding:0; font-size:14px;}
+.bh-error{ width:100%; height:auto; overflow:hidden;}
+.bh-error .bh-tips{ height:50px; text-align:center; line-height:50px; color:#666; font-size:28px; font-family:Arial, Helvetica, sans-serif;}
+.bh-error .bh-notice{ height:30px; line-height:30px; text-align:center; color:#999; font-size:14px;font-family:Arial, Helvetica, sans-serif;}
+.bh-error .bh-errorbg{ height:349px; width:100%; margin:0px auto 20px auto; overflow:hidden; background:url(../images/bg/error-bg.jpg) no-repeat center center; -webkit-animation:ebg-a 150s linear infinite;animation:ebg-a 150s linear infinite;}
+.bh-error .bh-errorbg img{ text-align:center; display:block; margin:90px auto 0px auto;}
+.bh-error .bh-btn{ width:330px; height:62px; color:#797979; line-height:62px; text-align:center; cursor:pointer; border:solid 3px #189aff; border-radius:4px; margin:50px auto 0px auto; font-size:20px;}
+.bh-error .bh-btn:hover{ background:#189aff; color:#fff;}
+.bh-error a{ color:#797979; text-decoration:none;}
+@-webkit-keyframes ebg-a{
+  0%{ background-position:top center;}
+  100%{ background-position:bottom center;}
+}
+@keyframes ebg-a{
+  0%{ background-position:top center;}
+  100%{ background-position:bottom center;}
+}
+@media (max-width:640px){
+  .bh-error .bh-errorbg{ height:200px; overflow:hidden; margin-bottom:10px;}
+  .bh-error .bh-errorbg img{ margin:50px auto 0px auto; height:100px; text-align:center; display:block;}
+  .bh-error .bh-btn{ width:90%; height:45px; line-height:45px; font-size:14px; margin-top:15px; border-width:1px;}
+  .bh-error .bh-tips{ height:auto; line-height:40px; width:95%; margin:0px auto;}
+  .bh-error .bh-notice{ height:auto; line-height:200%; width:95%; margin:0px auto; padding:0;}
+}

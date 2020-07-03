@@ -1,0 +1,79 @@
+.appoint{
+    background: #fff;
+}
+
+
+
+.mtext{width:245px;height:24px;border:solid 1px #dcdcdc; color:#4e4e4e; padding:3px; border-radius:2px;}
+.return_amout{width:100px;height:20px;border:solid 1px #dcdcdc; color:#4e4e4e; padding:2px 3px; border-radius:2px;}
+.intro{width:360px;height:62px;border:solid 1px #dcdcdc;color:#666;line-height:25px;padding:3px; border-radius:2px;}
+.ctrls{width:200px;height:42px;background:#309de0;color:#fff;text-align:center;border:none;cursor:pointer;margin:10px auto 0px auto;font-size:16px;line-height:42px;font-weight: bold;}
+.return_amout:focus,.mtext:focus{ border:solid 1px #61ade7; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);}
+.intro{ resize:none; width:400px;}
+.intro:focus{ border:solid 1px #61ade7; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);}
+.appoint select{
+    height: 30px;
+    border:solid 1px #dcdcdc;
+    color:#4e4e4e;
+    border-radius:2px;
+    display: inline-table;
+    width: 250px;
+}
+.appoint select.coursearea{
+    height: auto;
+}
+.appoint select.stag{
+    height: auto;
+}
+.appoint select.mtag{
+    height: auto;
+}
+.appoint tr td:nth-of-type(1){
+    padding-right: 20px;
+}
+
+
+
+table.classtime{
+    width:500px;
+    text-align: center;
+    border-left: 1px solid #d4d3d2;
+    border-top: 1px solid #d4d3d2;
+}
+table.classtime tr{color: #666;}
+table.classtime tr:nth-last-of-type(1){background:#ebebeb;}
+table.classtime tr:nth-last-of-type(2){background:#fffef2;}
+table.classtime tr:nth-last-of-type(3){background:#eff9fe;}
+table.classtime tr:nth-last-of-type(4){background:#fef3f7;}
+table.classtime tr td{
+    border-right: 1px solid #d4d3d2;
+    border-bottom: 1px solid #d4d3d2;
+    height: 42px;
+    line-height: 42px;
+}
+.appoint table tr td span{
+    color: #737373;
+}
+.appoint table tr td i,.appoint table tr td i a{
+    color: #f00;
+    font-style: normal;
+}
+.appoint table tr td i a:hover{
+    text-decoration: underline;
+}
+.tutorInfo{
+    background: #309de0;
+    color: #fff;
+    width: 240px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+
+.code_in {
+   
+    float: left;
+}

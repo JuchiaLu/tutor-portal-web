@@ -1,0 +1,249 @@
+.menuDiv{width: 1200px;height: 495px;overflow: hidden;position: absolute;left: 50%;top:0;margin-left: -600px;z-index: 101;}
+.menuDiv .lfmenu{width: 200px;height: 495px;float:left;background: url('../../assets/images/opacity-white.png');position: relative;}
+.menuDiv .lfmenu .list{width:184px;height: 60px;border-bottom: 1px solid #ddd;margin:0px auto;}
+.allcate{
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  background: rgba(0,0,0,0.5);
+  height: 495px;
+  width: 500px;
+  display: none;
+}
+.allcate dl{
+  padding: 20px;
+}
+.allcate dt{color: #ff4545;font-weight: bold;font-size: 16px;display: inline-block;float: left;margin:5px  20px 20px 0px;height:auto;}
+.allcate dd{display: inline-block;margin: 5px 10px}
+.allcate dd a{color: #fff;font-size: 14px;}
+.menuDiv .lfmenu .list:hover .allcate{display: block;}
+.menuDiv .lfmenu .type{width:184px;line-height:29px;height:29px;}
+.menuDiv .lfmenu .type a{display: block;float: left;margin-right: 15px;color: #555;font-weight: bold;}
+.menuDiv .lfmenu .type a:hover{color: #e80000;}
+.menuDiv .lfmenu .small{width:192px;overflow:hidden;height:30px;line-height: 30px;}
+.menuDiv .lfmenu .small a{display: block;float: left;margin-right:8px;color: #555;font-size: 12px;margin-top: -2px;}
+.menuDiv .lfmenu .small a:hover{color: #e80000;}
+.menuDiv .right{width:310px;height:395px;float:right;overflow: hidden;background: url('../../assets/images/opacity-white.png');margin-top:44px;}
+.menuDiv .right .txt{width: 310px;height: 47px;line-height: 47px;border-bottom:1px solid #ddd;margin-bottom: 20px;}
+.menuDiv .right .txt span{display: block;float:left;width:155px;height: 46px;border-bottom:1px solid #e80000;text-align: center;color: #666;font-size: 18px;}
+.menuDiv .user_in{width:260px;height:39px;border:1px #dcdcdc solid;background:#fff url('../../assets/images/user_in.gif') no-repeat left center;margin-left:25px; overflow:hidden;}
+.menuDiv .pass_in{width:260px;height:39px;border:1px #dcdcdc solid;background:#fff url('../../assets/images/pass_in.gif') no-repeat left center;margin-left:25px;margin-top:15px; clear:both;}
+.menuDiv .log_in{border:0px;width:190px;height:25px;margin:6px 0px 0px 43px; padding-left:10px;font-family:"微软雅黑";}
+.menuDiv .forgets{width:260px;height:20px;overflow:hidden;margin:10px 0 0 25px;}
+.menuDiv .forgets .left{float: left;width: 100px;height: 20px;overflow: hidden;color: #666;font-size: 12px;}
+.menuDiv .forgets .left .check{margin:2px 5px 0 0;display:block;float: left;}
+.menuDiv .forgets .rgforget{float: right;color: #666;font-size: 12px;}
+.menuDiv .forgets .rgforget:hover{color: #e80000;text-decoration: underline;}
+.menuDiv .btn{width: 260px;height: 40px;line-height: 40px;text-align: center;background: #e80000;color: #fff;overflow: hidden;border-radius:5px;cursor: pointer;border:none;margin:10px 0 10px 25px;font-size: 16px;font-family:"微软雅黑";}
+.menuDiv .quickly{width:260px;margin-left: 25px;overflow: hidden;color: #888;font-size: 12px;text-align: center;}
+.menuDiv .icons{width: 260px;height: 44px;overflow: hidden;text-align: center;margin:10px 0 10px  25px;}
+.menuDiv .icons a{display: inline-block;width: 44px;height: 44px;overflow: hidden;margin:0 12px;}
+.menuDiv .as{width:255px;height: 42px;overflow: hidden;margin-left:30px;}
+.menuDiv .as a{display: inline-block;width: 120px;height: 42px;line-height: 42px;text-align: center;overflow: hidden;color: #fff;font-size: 16px;cursor: pointer;border-radius:5px;background: #309de0;}
+.menuDiv .as .rg{float: right;}
+.menuDiv .as a:hover{background: #e80000;}
+
+
+
+
+.err_tip{line-height:22px; margin-top:5px; color:#b30401; text-align:center; font-size:12px;font-style: normal;}
+
+.user-face{ width:120px; height:120px; border:1px solid #dedede;border-radius:50%; overflow:hidden; margin:20px auto 20px auto;}
+.lg_tips{ width:100%; text-align:center; font-size:14px; color:#333;}
+.go_ce{ width:80%; height:34px; margin:20px auto 30px auto; border-radius:3px; overflow:hidden;}
+.go_ce a{ width:100%; height:34px; display:block; text-align:center; color:#fff; background:#ff6700; font-size:14px; line-height:33px;}
+
+
+
+
+.bannerDiv{width:100%;height:495px;overflow: hidden;margin: 0px auto;clear: both;min-width: 1200px;position: relative;}
+.bannerDiv .fullSlide{position:relative;width:100%;height:495px;overflow: hidden;min-width: 1200px;}
+.bannerDiv .fullSlide .bd{z-index:0;height:495px;width:1920px;overflow: hidden;position: absolute;left:50%;top: 0;margin-left: -960px;}
+.bannerDiv .fullSlide .bd li img{width:100%; vertical-align:top;height:495px;}
+.bannerDiv .fullSlide .hd{position:absolute; z-index:1;bottom:20px;height:12px;text-align:center;width: 100%;}
+.bannerDiv .fullSlide .hd ul{ text-align:center;}
+.bannerDiv .fullSlide .hd ul li{cursor:pointer;display:inline-block; *display:inline;zoom:1;width:12px;height:12px;margin:0 5px;background:#fff;overflow:hidden;border-radius:100%;}
+.bannerDiv .fullSlide .hd ul .on{background:#e80000;}
+
+.txtDiv{width: 100%;min-width: 1200px;height: 56px;overflow: hidden;border-bottom: 1px solid #ddd;background:url('../../assets/images/bg_txt.png') repeat-x left top;clear: both;}
+.txtDiv .txt{width: 1200px;height: 56px;overflow: hidden;margin: 0px auto;}
+.txtDiv .left{float: left;width: 650px;height: 56px;line-height: 56px;overflow: hidden;}
+.txtDiv .left li{display: block;float: left;max-width: 310px;overflow: hidden;margin-right: 10px;height: 56px;line-height: 56px;color: #888;font-size: 15px;}
+.txtDiv .left li img{position: relative;top:6px;margin-right: 10px;}
+.txtDiv .left li b{color: #309de0;margin-right:5px;}
+.txtDiv .right{float: right;height: 56px;overflow: hidden;}
+.txtDiv .right li{display: block;float: left;width:100px;overflow: hidden;margin: 13px 10px 0 20px;height:30px;line-height: 30px;color: #888;font-size: 15px;}
+.txtDiv .right li b{display: block;float: left;width: 30px;height:28px;line-height:28px;border:1px solid #ccc;border-radius: 100%;text-align: center;overflow: hidden;font-weight: normal;margin-right:8px;}
+
+.mainDiv{width: 1200px;height: auto;overflow: hidden;margin:0px auto;clear: both;padding-bottom: 45px;}
+.mListDiv{width: 1200px;height: auto;overflow: hidden;margin-top:20px;}
+.mListDiv .lists{float: left;border:1px solid #e6e6e6;overflow: hidden;}
+.mListDiv .indexType{height:48px;line-height:48px;background: #f5f5f5;border-bottom:1px solid #e6e6e6;}
+.mListDiv .indexType .lf{float: left;height:47px;padding-left: 10px;border-bottom:1px solid #e80000;color: #666;font-size: 16px;font-weight: bold;}
+.mListDiv .indexType .lf img{position: relative;top:2px;margin-right: 8px;}
+.qq_qun{
+  float: left;
+  margin-left: 20px;
+  height: 22px;
+  line-height: 22px;
+  margin-top: 15px;
+  color: #666;
+
+}
+.qq_qun img{
+
+}
+.mListDiv .indexType .appoint_tel{
+  float: left;
+  margin-left: 20px;
+  color: #666;
+  background:  url('../../assets/images/tel_icon.png') no-repeat scroll left center / auto 13px;
+  padding-left: 20px;
+}
+.mListDiv .indexType .appoint_tel span{
+  color: #F00;
+  font-weight: bold;
+}
+.mListDiv .indexType .more{float: right;margin-right:25px;color: #999;}
+.mListDiv .indexType .more:hover{color: #e80000;}
+.mListDiv .right{width:880px;float: right;overflow: hidden;}
+
+
+.infoDiv{
+
+}
+.infoDiv .tels{
+  width:283px;
+  height: 135px;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+
+}
+.infoDiv .tels span{
+  font-size: 16px;
+  display: block;
+  line-height: 28px;
+
+}
+.infoDiv .tels span:nth-of-type(1){
+  padding-left: 35px;
+  background: url('../../assets/images/index_tel.png') no-repeat 10px center;
+}
+.infoDiv .tels span:nth-of-type(2){
+  padding-left: 35px;
+  background: url('../../assets/images/index_qq.png') no-repeat 10px center;
+}
+.infoDiv .tels span:nth-of-type(3){
+  padding-left: 35px;
+  background: url('../../assets/images/index_weixin.png') no-repeat 10px center;
+}
+.infoDiv .tels span:nth-of-type(4){
+  margin-top: 10px;
+}
+.infoDiv .tels span a{
+  display: inline-block;
+  color: #fff;
+  width: 124px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+.beTutor{
+  background: #309de0;
+  margin-right: 10px;
+}
+.beTeacher{
+  background: #33b633;
+}
+.voiceDiv{height: 260px;}
+.voice{height: 353px;width: 303px;}
+.voiceUl{width:260px;height:295px;overflow: hidden;margin:8px auto 0 auto;}
+.voiceUl li{display:block;width: 260px;height:32px;line-height:32px;overflow: hidden;background: url('../../assets/images/icon-arrow-3.png') no-repeat left center;}
+.voiceUl li a{display:block;float:left;width:245px;height:32px;margin-left:15px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#666;}
+.voiceUl li a:hover{color: #e80000;}
+.voiceDiv .stepDiv{float: left;width: 210px;height: 260px;background: #fff4ea;overflow: hidden;margin-left: 12px;position:relative;}
+.voiceDiv .stepDiv .num{position: absolute;top: 0;left: 0;width:30px;height: 42px;line-height:23px;background: url('../../assets/images/icon-arrow-4.png') no-repeat;color: #fff;font-size: 16px;padding-left:6px;}
+.voiceDiv .stepDiv .arrow{position: absolute;top:115px;left: 0;width:20px;height:28px;background: url('../../assets/images/icon-arrow-5.png') no-repeat;}
+.voiceDiv .stepDiv .pic{width: 107px;height: 107px;overflow: hidden;margin:22px auto 0px auto;}
+.voiceDiv .stepDiv .name{width: 182px;height:32px;overflow: hidden;margin:14px auto 0px auto;background: url('../../assets/images/dot.png') no-repeat center bottom;text-align: center;color: #666;font-size: 16px;font-weight: bold;}
+.voiceDiv .stepDiv .intro{width: 182px;height:44px;line-height: 22px;margin:14px auto 0px auto;text-align: center;color: #999;font-size: 14px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.voiceDiv .step-1{margin-left: 0px;}
+
+.casesDiv{height:355px;}
+.cases{height:258px;width: 303px;}
+.caseList{width:275px;height:auto;overflow: hidden;margin:0 auto;}
+.caseList .csesA{display: block;width: 275px;height: 48px;line-height: 24px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.txtScroll-top .bd ul li{height:50px;}
+.csesA .name{color: #69be53;}
+.csesA .name img{position: relative;top:2px;margin-right:5px;}
+.csesA .topic{color: #666;}
+.csesA:hover .topic{color: #e80000;}
+.casesDiv .right{width:878px;height:353px;border:1px solid #e6e6e6;}
+.casesDiv .right .indexType{border-bottom:none;}
+.casesDiv .right .indexType .lf img{top:6px;}
+.casesDiv .infos{width:878px;height:353px;overflow: hidden;}
+.casesDiv .infos .infoA{display: block;width:878px;height:50px;line-height:50px;overflow: hidden;border-top:1px solid #e6e6e6;}
+.casesDiv .infoA li{display: block;float: left;overflow: hidden;height: 50px;margin-left:20px;font-size:14px;white-space:nowrap;text-overflow:ellipsis;}
+.casesDiv .infoA li img{position: relative;top:3px;margin-right:8px;}
+.casesDiv .infoA .date{width:110px;color: #1a85c6;}
+.casesDiv .infoA .book{width:140px;color: #1a85c6;}
+.casesDiv .infoA .marker{width:190px;color: #666;}
+.casesDiv .infoA .money{width:90px;color: #666;}
+.casesDiv .infoA .claim{width:235px;color: #666;}
+.casesDiv .infoA:hover .date,.casesDiv .infoA:hover .book,.casesDiv .infoA:hover .marker,.casesDiv .infoA:hover .money,.casesDiv .infoA:hover .claim{color: #e80000;}
+
+.precautDiv{height:620px;}
+.precautDiv .precaut{height:613px;width: 303px;}
+.precautDiv .precaut .indexType{border-bottom:none;}
+.precautDiv .precautUl{width:303px;height:auto;overflow: hidden;}
+.precautDiv .precautUl li{display:block;width:303px;height:50px;line-height:50px;overflow: hidden;background: url('../../assets/images/dot-1.png') no-repeat 20px center;border-top:1px solid #e6e6e6;}
+.precautDiv .precautUl li a{display:block;float:left;width:265px;height:50px;margin-left:35px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#666;}
+.precautDiv .precautUl li a:hover{color: #e80000;}
+.precautDiv .right{width:878px;height:613px;border:1px solid #e6e6e6;}
+.precautDiv .right .indexType{border-bottom:none;}
+.precautDiv .right .indexType .lf img{top:6px;}
+.precautDiv .teach{width:878px;height:564px;overflow: hidden;}
+.precautDiv .teach .teaA{display: block;float: left;border:1px solid #e6e6e6;border-right:none;border-bottom:none;width:438px;height:188px;overflow: hidden;}
+.precautDiv .teaA .pic{width: 135px;height: 155px;overflow: hidden;float: left;margin:16px 0 0 16px;}
+.precautDiv .teaA .name{width:255px;height:25px;overflow: hidden;float: left;margin:16px 0 0 17px;color: #1a85c6;font-size:16px;font-weight: bold;}
+.precautDiv .teaA .name img{position: relative;top: 3px;margin-left:10px;}
+.precautDiv .teaA .list{width:255px;height:20px;line-height:20px;float: left;margin:10px 0 0 17px;color: #666;font-size:14px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.precautDiv .teaA .intro{width:255px;height:54px;line-height:18px;float: left;margin:14px 0 0 17px;color: #666;font-size:14px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;}
+.precautDiv .teaA:hover .name,.precautDiv .teaA:hover .list,.precautDiv .teaA:hover .intro{color: #e80000;}
+.precautDiv .teach .teaA:nth-child(1),.precautDiv .teach .teaA:nth-child(3),.precautDiv .teach .teaA:nth-child(5){border-left: none;}
+
+.banDiv{width:1230px;margin-top: 20px;}
+.banDiv .bans{display:block;float:left;width:228px;height:98px;overflow:hidden;border:1px solid #e6e6e6;margin:2px 9px 2px 2px;border-radius:2px;-webkit-box-shadow:0px 0px 9px 0px rgba(204,204,204, 0.75);-moz-box-shadow:0px 0px 9px 0px rgba(204,204,204, 0.75);box-shadow:0px 0px 9px 0px rgba(204,204,204, 0.75);position:relative;}
+.banDiv .bans .pic{width: 220px;height: 90px;overflow: hidden;margin:4px;}
+.banDiv .bans .opac{position: absolute;top:4px;left:4px;background: url('../../assets/images/opacity-blank.png');width: 220px;height: 90px;overflow: hidden;}
+.banDiv .bans .txt{width:210px;height: 90px;line-height: 90px;text-align: center;color: #fff;font-size: 18px;font-weight: bold;overflow: hidden;margin:0 auto;}
+
+.banDiv .indexType{border-bottom:none;height: 48px;line-height: 48px;}
+.banDiv .indexType .lf{
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+}
+.banDiv .indexType .lf img{position: relative;top:6px;margin-right: 8px;}
+
+.precautDiv .teaA:hover .pic img,.banDiv .bans:hover img{
+  opacity: 1;
+  transform: scale(1.15,1.15);
+  -webkit-transform:scale(1.15,1.15);
+  -moz-transform:scale(1.15,1.15);
+  -ms-transform:scale(1.15,1.15);
+  -o-transform:scale(1.15,1.15);
+}
+.precautDiv .teaA .pic img,.banDiv .bans img{
+  -webkit-transition:all 0.45s ease-in-out;
+  -moz-transition:all 0.45s ease-in-out;
+  -o-transition:all 0.45s ease-in-out;
+  -ms-transition:all 0.45s ease-in-out;
+  transition:all 0.45s ease-in-out;
+}
+
