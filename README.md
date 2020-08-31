@@ -1,8 +1,18 @@
 # tutor-portal-web
 
-在线家教预约平台的前台门户前端应用，使用**[vue-admin-template](https://panjiachen.gitee.io/vue-admin-template)**作为开发脚手架。
+在线家教预约平台的前台门户前端应用，使用 [vue-admin-template](https://panjiachen.gitee.io/vue-admin-template) 作为开发脚手架。
 
-样式模板修改至互联网一款名叫 **“[Thinkphp红色大气新版家教网多城市版](https://www.yuanmajia.cn/programcode/thinkphpjiajiaowang.html)” **的PHP程序，用Vue重写。
+样式模板修改至互联网一款名叫 [Thinkphp红色大气新版家教网多城市版](https://www.yuanmajia.cn/programcode/thinkphpjiajiaowang.html) 的 PHP 程序，用 Vue 和 Element UI 重写。
+
+[点击查看全部预览](https://github.com/JuchiaLu/tutor-server/blob/master/PREVIEW.md)
+
+![preview39](http://47.107.243.187:9530/tutor-server/preview/preview39.png)
+
+![preview39](http://47.107.243.187:9530/tutor-server/preview/preview40.png)
+
+![preview39](http://47.107.243.187:9530/tutor-server/preview/preview41.png)
+
+![preview39](http://47.107.243.187:9530/tutor-server/preview/preview42.png)
 
 ## 构建
 
